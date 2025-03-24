@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Nativos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+   
+    <div class="header">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo Nativos" class="logo">
+
+<!-- Botão Hamburguer -->
+<div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+<!-- Menu de Navegação -->
+<nav id="menu">
+    <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#quem">Quem Somos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#quem">Quem Somos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <img src="{{ url_for('static', filename='images/simbolo.png') }}" alt="Símbolo" class="simbolo">
+        <h1>Bem-vindo à Nativos</h1>
+        <h2>Soluções ambientais sustentáveis para o seu empreendimento.</h2>
+    </section>
+
+    <section id="quem" class="quem">
+        <div class="quem-conteudo">
+            <h1>QUEM SOMOS</h1>
+            <p>A Nativos é uma empresa dedicada a fornecer soluções ambientais eficazes para empresas, organizações e órgãos governamentais que desejam alinhar suas operações às melhores práticas de sustentabilidade. Com uma equipe de especialistas experientes e altamente qualificados, oferecemos serviços abrangentes que vão desde diagnósticos ambientais até o desenvolvimento de estratégias de gestão de resíduos.</p>
+
+            <p>Nossa missão é auxiliar nossos clientes a atingir seus objetivos de maneira sustentável, promovendo o desenvolvimento responsável e a conservação dos recursos naturais. Comprometidos com a inovação, excelência técnica e ética, nos destacamos pela abordagem personalizada, adaptando nossos serviços às necessidades específicas de cada projeto.</p>
+
+            <p>Atuamos em diversos setores, incluindo licenciamento ambiental, monitoramento contínuo, recuperação de áreas degradadas, educação ambiental e muitos outros. Nosso objetivo é ser um parceiro confiável para nossos clientes, ajudando-os a reduzir impactos ambientais, cumprir regulamentações e construir um futuro mais verde.</p>
+
+            <p>Na Nativos, acreditamos que pensar no futuro começa com cuidar do presente. Junte-se a nós nessa jornada por um planeta mais sustentável.</p>
+        </div>
+        <div class="quem-imagem">
+            <img src="{{ url_for('static', filename='images/simbolod.png') }}" alt="Sobre a Nativos" class="simbolod">
+        </div>
+    </section>
+
+    <section id="buscamos" class="buscamos-container">
+        <h2>O que buscamos</h2>
+        <div class="buscamos-itens">
+            <div class="buscamos-item">
+                <h3>EXCELÊNCIA</h3>
+                <p>Mantemos um padrão elevado em todos os nossos serviços, buscando sempre a satisfação e o sucesso dos nossos clientes.</p>
+            </div>
+            <div class="buscamos-item">
+                <h3>ÉTICA</h3>
+                <p>Atuamos com transparência e integridade, cultivando relacionamentos de confiança com nossos parceiros.</p>
+            </div>
+            <div class="buscamos-item">
+                <h3>COMPROMISSO</h3>
+                <p>Focamos nos resultados sustentáveis, alinhados sempre às exigências legais e ambientais.</p>
+            </div>
+            <div class="buscamos-item">
+                <h3>INOVAÇÃO</h3>
+                <p>Desenvolvemos soluções criativas e eficientes para atender às demandas atuais e futuras.</p>
+            </div>
+            <div class="buscamos-item">
+                <h3>AGILIDADE</h3>
+                <p>Nossa equipe está pronta para responder de forma rápida e eficaz às necessidades dos nossos clientes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos">
+        <div class="servicos-conteudo">
+            <div class="servicos-texto">
+                <h1>SERVIÇOS</h1>
+                <h2>Oferecemos soluções tecnológicas no</h2>
+                <h3>Licenciamento</h3>
+                <h4>Ambiental</h4>
+                <h5>Estudos Ambientais (RAS/EIA/RIMA)</h5>
+                <h5>Planos de Afugentamento e Resgate de Fauna e Flora</h5>
+                <h5>Diagnóstico e Monitoramento de Fauna, Flora, Ruídos, Qualidade da Água, Processos Erosivos e Conectividade de Paisagem</h5>
+                <h5>Plano de Recuperação de Áreas Degradadas (PRAD)</h5>
+                <h5>Plano e Gerenciamento de Resíduos Sólidos (PGRS)</h5>
+                <h5>Análise de Relevância de Cavidades Naturais</h5>
+                <h5>Geoprocessamento e Estudos Geológicos</h5>				
+            </div>
+            <div class="servicos-imagem">
+                <img id="imagem-servicos" src="{{ url_for('static', filename='images/servicos1.png') }}" alt="Servicos Nativos">
+            </div>
+        </div>
+		<div class="servicos-fundo">
+        <img src="{{ url_for('static', filename='images/usina.jpg') }}" alt="Imagem da Usina" class="imagem-usina">
+    </div>
+	<div class="setores">
+        <h2>Auxiliamos empresas de</h2>
+        <h3>Diversos Setores</h3>        
+    </div>
+    </section>
+
+    <section id="equipe" class="equipe">
+    <h1>EQUIPE</h1>
+    <h2>Nosso corpo técnico é formado por</h2>
+	<h3>Mestres e Doutores</h3>
+	<div class="equipe-profissionais">
+    <h4 class="profissional">Biólogos</h4>
+    <h4 class="profissional">Zoólogos</h4>
+    <h4 class="profissional">Ecólogos</h4>
+    <h4 class="profissional">Espeleólogos</h4>
+    <h4 class="profissional">Geólogos</h4>
+    <h4 class="profissional">Engenheiros</h4>
+    <h4 class="profissional">Gestores</h4>
+</div>
+	<div class="equipe-download">    
+    <a href="{{ url_for('static', filename='pdf/portfolio_nativos.pdf') }}" download class="botao-download">
+        Baixar Portfólio
+    </a>
+</div>
+	<img src="{{ url_for('static', filename='images/equipe.jpg') }}" alt="Nossa Equipe" class="equipe-imagem">
+    </section>
+
+<section id="contato">
+    <h1>CONTATO</h1>
+    <h2>Nossa equipe está pronta</h2>
+	<h3>para te atender!</h3>
+	
+ <div class="contato-info">
+    <h4>Acompanhe nossas</h4>
+    <h5>Redes Sociais</h5>
+    
+    <div class="contato-h6-bloco">
+        <h6>+55 75 9 91876531</h6>
+        <h6>+55 73 9 99907204</h6>
+        <h6>@nativos.amb</h6>
+        <h6>nativos.assessoria@gmail.com</h6>
+    </div>
+
+    <div class="qrcode-container">
+        <img src="{{ url_for('static', filename='images/qrcode.png') }}" alt="QR Code para Redes Sociais" class="contato-qrcode">
+    </div>
+</div>
+	
+<form action="/contato" method="post" class="form-contato">
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensagem">Mensagem</label>
+    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+    <button type="submit" class="botao-enviar">Enviar</button>
+</form>
+</section>
+
+    <footer>
+        <div class="footer-line"></div>
+		<p>&copy; 2025 Nativos Assessoria Ambiental. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let imagens = ["servicos1.png", "servicos2.png", "servicos3.png", "servicos4.png", "servicos5.png", "servicos6.png", "servicos7.png", "servicos8.png", "servicos9.png", "servicos10.png", "servicos11.png"];
+            let indice = 0;
+            let imgElement = document.getElementById("imagem-servicos");
+
+            setInterval(() => {
+                indice = (indice + 1) % imagens.length;
+                imgElement.src = `{{ url_for('static', filename='images/') }}${imagens[indice]}`;
+            }, 2000);
+        });
+		
+		window.addEventListener("scroll", function () {
+    let header = document.querySelector(".header");
+    let nav = document.querySelector("nav");
+
+    if (window.scrollY > 50) {
+        header.classList.add("scrolled-header");
+        nav.classList.add("scrolled-header");
+    } else {
+        header.classList.remove("scrolled-header");
+        nav.classList.remove("scrolled-header");
+    }
+});
+    
+// Função do Menu Hamburguer
+document.getElementById("menu-toggle").addEventListener("click", function () {
+    document.getElementById("menu").classList.toggle("active");
+});
+
+</script>
+
+</body>
+</html>
