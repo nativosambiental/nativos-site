@@ -75,7 +75,7 @@ nav a:hover {
 }
 
 #inicio {
-    background-image: url("../static/images/inicio-bg.jpg");
+    background-image: url("../static/images/inicio.jpg");
     background-size: cover;
     background-position: 80% center;
     background-repeat: no-repeat;
